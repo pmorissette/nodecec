@@ -20,7 +20,7 @@ NodeCEC.prototype.__proto__ = EventEmitter.prototype;
 
 // start NodeCEC server
 NodeCEC.prototype.start = function() {
-    this.client = spawn('cec-client2');
+    this.client = spawn('cec-client');
 
     this.stdout = byline(this.client.stdout);
     this.stderr = byline(this.client.stderr);

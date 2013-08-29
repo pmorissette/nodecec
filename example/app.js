@@ -1,4 +1,4 @@
-var NodeCEC = require('../index.js')
+var NodeCEC = require('../nodecec')
 
 var cec = new NodeCEC();
 

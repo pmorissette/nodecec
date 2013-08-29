@@ -1,6 +1,6 @@
 {
   "name": "nodecec",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A cec-client wrapper for node.js",
   "main": "index.js",
   "directories": {

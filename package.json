@@ -1,21 +1,31 @@
 {
-    "name": "nodecec",
-    "description": "A cec-client wrapper for node.js",
-    "tags": [
-        "cec", 
-        "libcec",
-        "nodecec"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/pmorissette/nodecec",
-    },
-    "author": "Philippe Morissette",
-    "license": "MIT",
-    "version": "0.0.1",
-    "main": "index.js",
-    "dependencies": {
-        "byline": "3.1.2"
-    },
-
+  "name": "nodecec",
+  "version": "0.0.1",
+  "description": "A cec-client wrapper for node.js",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "byline": "~3.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pmorissette/nodecec.git"
+  },
+  "keywords": [
+    "cec",
+    "cec-client",
+    "libcec",
+    "nodecec"
+  ],
+  "author": "Philippe Morissette",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pmorissette/nodecec/issues"
+  }
 }

@@ -42,6 +42,10 @@ NodeCEC.prototype.start = function() {
         that.ready = false;
         that.client = null;
     });
+    
+    this.client.on('error', function(err) {
+    	handleError(err);
+    });
 }
 
 // stop NodeCEC server

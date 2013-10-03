@@ -44,7 +44,7 @@ NodeCEC.prototype.start = function() {
     });
     
     this.client.on('error', function(err) {
-    	handleError(err);
+    	that.handleError(err);
     });
 }
 

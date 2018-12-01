@@ -18,9 +18,9 @@ NodeCEC.prototype.__proto__ = EventEmitter.prototype;
 // PUBLIC API 
 // ========================
 
-// start NodeCEC server
-NodeCEC.prototype.start = function() {
-    this.client = spawn('cec-client');
+// start NodeCEC server (default name of cec-client is CECTester)
+NodeCEC.prototype.start = function(name = 'CECTester') {
+    this.client = spawn('cec-client', ['-o', name]);
 
     this.stdout = byline(this.client.stdout);
     this.stderr = byline(this.client.stderr);
